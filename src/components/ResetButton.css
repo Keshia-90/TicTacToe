@@ -1,0 +1,24 @@
+.reset-btn {
+    font-family: 'Kalam', cursive;
+    font-size: 40px;
+    color: #FF5A80;
+    display: block;
+    margin: 32px auto;
+    padding: 8px 16px;
+    border-style: inset;
+    border-width: 4px;
+    border-color: #00ffff;
+    border-radius: 10px ;
+    box-shadow: 0px 0px 8px #888;
+    background-color: #000000;
+}
+
+.reset-btn:hover {
+    box-shadow: 0px 0px 40px rgb(242, 73, 73);
+}
+
+.reset-btn:active {
+    background-color: #000000;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
